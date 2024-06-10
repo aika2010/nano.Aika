@@ -1,0 +1,126 @@
+.MobileDev{
+    width: 100%;
+    background-color: #32159c;
+}
+.MobileDev__container{
+    background-color: #32159c;
+    height: 1100px;
+}
+.MobileDev__title{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.MobileDev__text{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 53px;
+    font-weight: 800;
+    line-height: 134.09%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+@media (max-width : 1024px) {
+    .MobileDev__container {
+        
+        height: 1300px;
+    }
+    .MobileDev__title {
+       
+        font-size: 42px;
+        
+    }
+    .MobileDev__text {
+       
+        font-size: 35px;
+       
+    }
+
+
+
+}
+@media (max-width : 992px) {
+    .MobileDev__container {
+        height: 1300px;
+    }
+    .MobileDev__title {
+        font-size: 38px;
+    }
+    .MobileDev__text {
+        
+        font-size: 30px;
+        
+    }
+}
+@media (max-width : 768px) {
+    .Header__ul-link {
+        margin-left: -1px;
+    }
+    .MobileDev__title {
+        font-size: 34px;
+    }
+    .MobileDev__text {
+        font-size: 27px;
+    }
+
+}
+@media (max-width : 480px) {
+    .MobileDev__container {
+     
+        height: 1240px;
+    }
+    .MobileDev__title {
+        font-size: 30px;
+    }
+    .MobileDev__text {
+        font-size: 25px;
+    }
+    .Footer__bigBlock {
+        width: 104%;
+        gap: 91px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .Footer__smallBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        margin-top: 29px;
+    }
+}
+@media (max-width : 320px) {
+    .Header__ul {
+        display: flex;
+        width: 44%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .Header__ul-link {
+        margin-left: -46px;
+    }
+    .MobileDev__title {
+        font-size: 23px;
+    }
+    .MobileDev__text {
+        font-size: 20px;
+    }
+    .Footer__logo {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 91px;
+        margin-left: 24px;
+    }
+    .Footer__smallBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+    }
+}

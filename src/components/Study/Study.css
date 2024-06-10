@@ -1,0 +1,85 @@
+.Study {
+    margin-top: 100px;
+}
+
+.Study__container {
+    width: 100%;
+    border-radius: 199px;
+    height: 570px;
+    background: rgb(77, 84, 102);
+    display: flex;
+
+}
+
+.Study__title {
+    
+    margin-left: 750px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    display: flex;
+    text-align: center;
+}
+
+.Study__person {
+
+    margin-top: 200px;
+    margin-left: -200px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Study__blackImg{
+   width: 650px;
+   margin-top: -350px;
+   margin-left: -1300px;
+}
+
+.Study__sign { 
+   
+    margin-left: 680px;
+    margin-top: 200px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 156px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Study__child {
+   
+    margin-top: 150px;
+    margin-left: 300px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 146.28%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Study__smallImg{
+    width: 490px;
+    margin-top: 28px;
+    margin-left: 200px;
+
+}
+.Study__old{
+    margin-left: 300px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+.Study__young{
+    margin-top: 116px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
